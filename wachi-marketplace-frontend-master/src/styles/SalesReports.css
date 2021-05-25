@@ -1,0 +1,83 @@
+.tabTitle {
+   font-size: 14px;
+}
+
+.paddingTopIcon {
+   padding-top: 5vh;
+}
+
+@media only screen and (max-width: 428px) {
+   .yearSelection {
+      margin-right: 20px;
+      margin-left: 20px;
+      max-width: 25%;
+   }
+}
+
+@media only screen and (min-width: 429px) {
+   .yearSelection {
+      margin-right: 16px;
+      max-width: 60%;
+   }
+}
+
+@media only screen and (max-width: 428px) {
+   .chart {
+      max-width: 250px;
+      min-height: 800px;
+   }
+}
+
+@media only screen and (min-width: 429px) {
+   .chart {
+      min-width: 800px;
+   }
+}
+
+@media only screen and (max-width: 320px) {
+   .responsive-title {
+      font-size: 13px;
+   }
+}
+
+@media only screen and (min-width: 321px) and (max-width: 375px) {
+   .responsive-title {
+      font-size: 15px;
+   }
+}
+
+@media only screen and (min-width: 376px) and (max-width: 425px) {
+   .responsive-title {
+      font-size: 16px;
+   }
+}
+
+@media only screen and (min-width: 426px) {
+   .responsive-title {
+      font-size: 20px;
+   }
+}
+
+@media only screen and (max-width: 320px) {
+   .responsive-subtitle {
+      font-size: 10px;
+   }
+}
+
+@media only screen and (min-width: 321px) and (max-width: 375px) {
+   .responsive-subtitle {
+      font-size: 12px;
+   }
+}
+
+@media only screen and (min-width: 376px) and (max-width: 425px) {
+   .responsive-subtitle {
+      font-size: 13px;
+   }
+}
+
+@media only screen and (min-width: 426px) {
+   .responsive-subtitle {
+      font-size: 16px;
+   }
+}

@@ -1,0 +1,390 @@
+p, div {
+    font-family: Lato;
+  }
+  
+  .wrapper {
+    height: 97vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #4A4E69;
+  }
+  
+  .form-wrapper {
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    max-width: 50%;
+    min-width: 100%;
+    max-height: 100%;
+    min-height: 50%;
+    padding-right: 5%;
+    padding-left: 5%;
+    border-radius: 0px;
+    box-shadow: 0px 0px 2px #222;
+    background-color: #fefefe;
+    
+  
+  }
+  
+  .form-wrapper2 {
+    align-content: center;
+    width: 100%;
+    height: 100%;
+    max-width: 50%;
+    min-width: 100%;
+    max-height: 100%;
+    min-height: 50%;
+    padding-right: 5%;
+    padding-left: 5%;
+    border-radius: 0px;
+    box-shadow: 0px 0px 2px #222;
+    background-color: #fefefe;
+  
+  }
+  
+  .form-wrapper > h1 {
+    display: flex;
+    justify-content: center;
+    font-family: "Segoe UI", "Ubuntu", "Roboto", "Open Sans", "Helvetica Neue", sans-serif;
+    font-size: 45px;
+    font-weight: bold;
+    margin-top: 5%;
+    margin-left: 10%;
+    color: #222;
+  }
+  
+  .form-wrapper > form >h2 {
+    display: flex;
+    justify-content: center;
+    font-family: "Segoe UI", "Ubuntu", "Roboto", "Open Sans", "Helvetica Neue", sans-serif;
+    font-size: 25px;  
+    font-weight: normal;
+    margin-top: 5%;
+  
+    margin-left: 16%;
+  
+    align-self: center;
+    color: #47525E;
+  }
+  h1 {
+    display: flex;
+    justify-content: center;
+    font-family: "Segoe UI", "Ubuntu", "Roboto", "Open Sans", "Helvetica Neue", sans-serif;
+    font-size: 45px;
+    font-weight: bold;
+    margin-top: 5%;
+    margin-left: 10%;
+    color: #222;
+  }
+  
+  h2 {
+    display: flex;
+    justify-content: center;
+    font-family: "Segoe UI", "Ubuntu", "Roboto", "Open Sans", "Helvetica Neue", sans-serif;
+    font-size: 25px;  
+    font-weight: normal;
+    margin-top: 5%;
+    margin-left: 8%;
+    align-self: center;
+    color: #47525E;
+    padding-right: 2%;
+  }
+  
+  h4 {
+    color: #2F70B8;
+    display: flex;
+    justify-content: center;
+    font-family: "Segoe UI", "Ubuntu", "Roboto", "Open Sans", "Helvetica Neue", sans-serif;
+    font-size: 35px;  
+    font-weight: bolder;
+    margin-top: 5%;
+    margin-left: 10%;
+    align-self: center;
+    
+    
+  }
+  
+  
+  /* Radio Button –––– */
+  :root {
+      --primary-c: #2F70B8;
+      --secondary-c: #8492A6;
+      
+      --white: #FDFBFB;
+      
+      --text: #082943;	
+      --bg: var(--primary-c);
+  }
+  
+  
+  /* Basic Config
+  –––––––––––––––––––––––––––––––––––––––––––––––––– */
+  
+  ul {
+    list-style-type: none;
+    position: relative;
+      padding-left: 80px;
+      margin: 2em;
+  }
+  .liv2 {
+      
+      position: relative;
+    padding: 10px 5px;
+    text-align: left;
+  }
+  
+  input[type=radio] {
+      position: absolute;
+      visibility: hidden;
+  }
+  
+  .label2{ 
+      cursor: pointer; 
+    font-weight: 200;
+    font-size: 110%;
+    font-weight: normal;
+    margin-right: 10%;
+    margin-left: 2%;
+    color: #47525E;
+  } 
+  
+  
+  .check {
+      width: 30px; height: 30px;
+      position: absolute;
+      border-radius: 50%;
+      transition: transform .6s cubic-bezier(0.68, -0.55, 0.27, 1.55);
+  }
+  
+  
+  
+  .buttonNext{
+    display: inline-block;
+    background-color: #2F70B8; 
+    border: 2px solid #2F70B8;  
+    color: #FFFFFF;
+    border-radius: 5px;
+    text-align: center;
+    margin: 5%;
+    
+  }
+  
+  .buttonPrev{
+    display: inline-block;
+    margin: 5%;
+    background-color: #FFFFFF;
+    border: 2px solid #2F70B8; 
+    color: #2F70B8;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  .buttonApply{
+    margin: auto;
+    display: block;
+    background-color: #FFFFFF;
+    border: 2px solid #2F70B8; 
+    color: #2F70B8;
+    border-radius: 5px;
+    text-align: center;
+    padding: 2.5%;
+    font-size: 22px;
+    font-weight: bold;
+    height: 50%;
+    width: 50%;
+  }
+  .buttonOpen{
+    align-content: center;
+    margin: auto;
+    display: block; 
+    background-color: #2F70B8; 
+    border: 2px solid #2F70B8;  
+    color: #FFFFFF;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  
+  #container {
+    float:flex;
+    width:100%;  
+    justify-content: center;
+    
+  }
+  
+  form {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .info {
+    padding-bottom: 1em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+  }
+  
+  label {
+    margin-bottom: 0.5em;
+    color: #000000;
+    font-weight: bold;
+    margin-left: 15em;
+  }
+  
+  input {
+    padding: 10px 10px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid #d6d1d5;
+    /*margin-left: 15em;*/
+  }
+  
+  #shu{
+    margin-left: 15em;
+    color: #ff0000;
+  }
+  
+  #buttonForm {
+    min-width: 35%;
+    cursor: pointer;
+    margin-right: 0.25em;
+    margin-top: 0.5em;
+    margin-left: 14em;
+    padding: 	0.938em;
+    border: none;
+    border-radius: 4px;
+    background-color: #2F70B8;
+    color: #fefefe;
+  }
+  
+  .errorMsg {
+    color:#a50c26;
+    font-size: 14px;
+    display: relative;
+  }
+  
+  .fullName
+  .email,
+  .password {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+    font-weight: bold;
+    
+  }
+  
+  .fullName {
+    width: 100%;
+  }
+  
+  .email,
+  .password {
+    width: 100%;
+  }
+  
+  .submit {
+    width: 29%;
+    display: flex;
+    flex-wrap: wrap;
+    
+  }
+  button.grayButton {
+    min-width: 30%;
+    cursor: default;
+    margin-left: 50%;
+    justify-content: center;
+    padding: 3%;
+    border: none;
+    border-radius: 4px;
+    background-color: #666;
+    color: #fefefe;
+    text-align: center;
+    font-size: 16px;
+  }
+  
+  .blueButton {
+    min-width: 30%;
+    cursor: pointer;
+    margin-left: 50%;
+    justify-content: center;
+    padding: 	3%;
+    border: none;
+    border-radius: 4px;
+    background-color: #2F70B8;
+    color: #fefefe;
+    text-align: center;
+    font-size: 16px;
+  }
+  
+  .columsForm{
+    margin-right: 0%;
+    margin-left: 0%;
+  }
+  
+  .col-sm-6 {
+    align-self: center;
+  }
+  .columnS {
+    float: left;
+    width: 33.33%;
+  }
+  
+  .rowBenefits {
+    display: inline-flex;
+    align-content: center;
+    padding-right: 6%;
+    padding-left: 3%;
+    padding-top: 4%;
+    padding-bottom: 4%;
+  }
+  
+  .descriptions {
+    margin-left: 8%;
+  }
+  .columnS img {
+    margin-top: 5%;
+    vertical-align: middle;
+    width: 100%;
+    height: 100%;
+  
+  }
+  /* Clear floats after the columns */
+  .rowS:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  #color-box{
+    background-color: rgb(47, 112, 184, 0.15);
+    
+   
+  }
+  
+  .border-box{
+    
+    background-color: #fefefe;
+    border:#2F70B8 5px solid;
+    margin: 1%;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+  }
+  
+  
+  .rowSample {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  
+  .columnSample {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+  }

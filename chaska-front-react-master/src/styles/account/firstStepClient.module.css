@@ -1,0 +1,109 @@
+/* Create two equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .column3{    
+    float: left;
+    width: 33.33%;   
+  }
+
+  .column3 img {
+    margin-top: 5%;
+    vertical-align: middle;
+    width: 100%;
+    height: 100%;
+  
+  }
+  /* Clear floats after the columns */
+  .row3:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .titleForm{    
+    color:  #060627; 
+    
+    font-size: 45px;
+    text-align: center; 
+    margin-left: 3vh;
+    margin-right: 3vh;
+    font-family: 'Lato';
+  }
+  
+  .justifyText{ 
+    margin-left: 3vh;
+    margin-right: 3vh;
+    text-align: justify;
+    text-align-last: left;    
+    font-family: 'Lato';
+  }
+  
+  .textStyleFee{
+    padding-left: 20vh;
+  }
+
+  .textStyleData{
+    padding-left: 13vh;
+  }
+
+  .textStyleData2{
+    padding-left: 8vh;
+  }
+
+  .textStyleFee2{
+    padding-left: 19vh;
+  }
+
+  .textStyleCurr{
+    padding-left: 17vh;
+  }
+
+  .centerGroup{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+   
+    
+  }
+
+  .formWrapper{
+    flex-direction: column;
+    width: 100vh;
+    height: 100vh;
+    max-width: 50vh;
+    min-width: 100vh;
+    max-height: 100vh;
+    min-height: 50vh;
+    padding: 5vh;    
+    box-shadow: 0px 0px 2px #222;
+    background-color: #fefefe;
+  }
+
+  .alert{
+    margin-left: 28vh;
+  }
+
+  .optionLabel{
+    font-weight: bold;
+  }
+
+
+
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 800px) {
+    .column {
+      width: 100%;
+    }
+  }

@@ -1,0 +1,62 @@
+{
+  "name": "chaskafront",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@emotion/core": "^10.0.7",
+    "@fortawesome/fontawesome-svg-core": "^1.2.25",
+    "@material-ui/core": "^4.5.1",
+    "@material-ui/icons": "^4.5.1",
+    "@types/jest": "24.0.18",
+    "@types/node": "12.7.8",
+    "@types/react": "16.9.3",
+    "@types/react-dom": "16.9.1",
+    "@types/react-router-dom": "^5.1.0",
+    "antd": "^3.23.6",
+    "axios": "^0.19.0",
+    "esm": "^3.2.25",
+    "material-ui": "^1.0.0-beta.47",
+    "react": "^16.10.1",
+    "react-dom": "^16.10.1",
+    "react-inputs-validation": "^4.0.2",
+    "react-recaptcha-google": "^1.1.1",
+    "react-responsive-carousel": "^3.1.50",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "^2.1.8",
+    "react-slick": "^0.25.2",
+    "react-spinners": "^0.6.1",
+    "react-step-progress-bar": "^1.0.3",
+    "rsuite": "^4.0.4",
+    "rsuite-steps": "^2.0.0-beta.9",
+    "styled-components": "^4.4.0",
+    "typescript": "3.6.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "rules": {
+    "object-literal-sort-keys": false,
+    "member-ordering": false,
+    "jsx-no-lambda": false,
+    "no-console": false,
+    "ordered-imports": false
+  }
+}

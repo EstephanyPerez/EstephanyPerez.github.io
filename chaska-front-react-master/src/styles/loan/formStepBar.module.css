@@ -1,0 +1,99 @@
+.form-wrapper {
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    max-width: 50%;
+    min-width: 100%;
+    max-height: 100%;
+    min-height: 50%;
+    padding-right: 5%;
+    padding-left: 5%;
+    border-radius: 0px;
+    box-shadow: 0px 0px 2px #222;
+    background-color: #fefefe;
+  }
+  
+  .centerGroup{
+    display: flex;
+    justify-content: center;
+  }
+  
+  .buttonNext{
+      display: inline-block;
+      background-color: #2F70B8; 
+      border: 2px solid #2F70B8;  
+      color: #FFFFFF;
+      border-radius: 5px;
+      text-align: center;
+      margin: 5%;
+      
+    }
+    
+    .buttonPrev{
+      display: inline-block;
+      margin: 5%;
+      background-color: #FFFFFF;
+      border: 2px solid #2F70B8; 
+      color: #2F70B8;
+      border-radius: 5px;
+      text-align: center;
+    }
+  
+    #container {
+      float:flex;
+      width:100%;  
+      justify-content: center;
+      
+    }
+  
+    h3 {
+      display: flex;
+      justify-content: center;
+      font-family: "Segoe UI", "Ubuntu", "Roboto", "Open Sans", "Helvetica Neue", sans-serif;
+      font-size: 30px;  
+      font-weight: normal;
+      margin-top: 5%;
+      margin-left: 10%;
+      align-self: center;
+      color: #47525E;
+    }
+  
+    h2 {
+      display: flex;
+      justify-content: center;
+      font-family: "Segoe UI", "Ubuntu", "Roboto", "Open Sans", "Helvetica Neue", sans-serif;
+      font-size: 20px;  
+      font-weight: normal;
+      margin-top: 5%;
+      margin-left: 10%;
+      align-self: center;
+      color: #47525E;
+    }
+  
+    h4{
+      color: #2F70B8;
+      display: flex;
+      justify-content: center;
+      font-family: "Segoe UI", "Ubuntu", "Roboto", "Open Sans", "Helvetica Neue", sans-serif;
+      font-size: 35px;  
+      font-weight: bold;
+      margin-top: 5%;
+      margin-left: 10%;
+      align-self: center;    
+      
+    }
+  
+    .rowSample {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      width: 100%;
+    }
+    
+    .columnSample {
+      display: flex;
+      flex-direction: column;
+      flex-basis: 100%;
+      flex: 1;
+    }
+  

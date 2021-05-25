@@ -1,0 +1,19 @@
+.row{
+  margin-right: 0;
+  margin-left: 0;
+}
+
+
+.v-input--reverse .v-input__slot {
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+
+
+}
+
+
+  .v-label {
+    display: block;
+    flex: 1;
+  }
+

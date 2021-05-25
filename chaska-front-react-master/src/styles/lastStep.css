@@ -1,0 +1,47 @@
+h4{
+    font-size: 300%;
+    margin-right: 11%;
+}
+
+.subtitle{
+    font-size: 200%;
+    margin-right: 10%;
+    margin-top: 2%;
+}
+
+.minititle{
+    font-size: 250%;
+    margin-right: 10%;
+    margin-top: 2%;
+}
+
+.label1{
+    margin-left: 50%;
+}
+
+.client-info{
+    margin-left: 12%;
+    height: 30%;
+}
+
+.card-info{
+    margin-left: 10%;
+    height: 30%;
+}
+
+.buttonNext4{
+    height: 100%;
+    width: 20%;
+    
+    margin: auto;
+    padding: 1%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    display: inline-block;
+    background-color: #2F70B8; 
+    border: 2px solid #2F70B8;  
+    color: #FFFFFF;
+    border-radius: 5px;
+    text-align: center; 
+    font-size: 16px;   
+  }

@@ -1,0 +1,6 @@
+{
+  "tabWidth": 3,
+  "semi": true,
+  "bracketSpacing": true,
+  "printWidth":150
+}

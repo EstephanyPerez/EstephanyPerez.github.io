@@ -1,0 +1,87 @@
+/*Component1*/
+#container_component1 > .row > .col {
+   margin: auto;
+   text-align: center;
+}
+
+/*Component2*/
+.icon-c2 {
+   margin: 3px 10px !important;
+   font-size: 20px !important;
+}
+.icon-c2:hover {
+   background-color: #03989a;
+
+   cursor: pointer;
+}
+
+.toolbar-edit {
+   display: var(--display) !important;
+}
+/deep/ .centered-input textarea {
+   text-align: center;
+}
+/deep/ .edit-input textarea {
+   font-size: 14px;
+}
+/deep/ .card_title textarea {
+   font-size: 18px;
+   color: var(--text-color) !important;
+   font-weight: bold;
+}
+
+/deep/ .title-input textarea {
+   font-size: 35px;
+   color: var(--text-color) !important;
+   font-weight: bold;
+   text-align: center;
+}
+
+/deep/ .paragraph-input textarea {
+   font-size: 20px;
+}
+.c2_card_title {
+   font-size: 20px;
+   margin-top: 14px;
+   margin-bottom: 14px;
+}
+.c2_card_body_text {
+   font-size: 14px;
+   line-height: 1.75rem;
+}
+
+.row-margin {
+   margin-top: 30px !important;
+   margin-bottom: 20px !important;
+}
+
+.div_style_focus:focus {
+   outline: var(--div-outline--focus) !important;
+}
+
+.div_style_focus:hover {
+   outline: var(--div-outline--hover) !important;
+}
+
+.div_style_img_hover:hover {
+   outline: var(--div-outline--hover) !important;
+}
+
+.col-card {
+   background-color: transparent !important;
+   margin: 5px;
+   margin-top: 0px;
+}
+.col-card:hover {
+   outline: var(--div-outline--hover) !important;
+}
+
+.col-card:focus {
+   outline: var(--div-outline--focus) !important;
+}
+
+/* EDIT COMPONENT 2*/
+.label-input {
+   margin-bottom: 4px;
+   color: "red";
+}

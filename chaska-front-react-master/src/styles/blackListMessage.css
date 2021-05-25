@@ -1,0 +1,42 @@
+
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+a.button{
+    background-color: #2F70B8; 
+    border: #2F70B8;
+    color: white;
+    padding: 10px 28px;  
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+    border-radius: 5px;
+    width: 10%;
+}
+
+
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 800px) {
+    a.button{
+      background-color: #2F70B8; 
+      border: #2F70B8;
+      color: white;
+      padding: 8px 20px;  
+      text-align: center;
+      text-decoration: none;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      font-size: 15px;
+      border-radius: 5px;
+      width: 20%;
+  }
+  }

@@ -1,0 +1,11 @@
+.row{
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.events{
+    padding-top: 2%;
+}
+.cards{
+    cursor: pointer;
+}

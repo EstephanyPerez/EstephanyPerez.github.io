@@ -1,0 +1,58 @@
+.alignCenter{
+    text-align: center;
+}
+
+.colorBlue{
+    color: #1867C0;
+}
+
+.alignRow{
+    justify-content: center;
+    
+}
+
+.withoutBold{
+    font-weight: normal;
+}
+
+@media only screen and (min-width: 959px){
+    .firstCol{
+        padding-right: 0;
+        
+    }
+    .secondCol{
+        padding-left: 0;
+    }
+    .minHeight {
+        min-height: 30vh;
+    }
+}
+
+@media only screen and (max-width: 958px){
+    .secondCol{
+        padding-top: 0;
+    }
+    .firstCol{
+        padding-bottom: 0;
+    }
+}
+
+.withoutPaddingTop{
+    padding-top: 0;
+}
+
+.withPaddingTop{
+    padding-top: 2%;
+}
+
+.subtotal{
+    padding-top: 8%;
+    padding-bottom: 0;
+}
+
+.payment-method-text{
+    font-size: 2.5vh;
+}
+
+
+

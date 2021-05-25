@@ -1,0 +1,34 @@
+stages:
+   - upload
+   # - init
+   # - deploy
+
+# hello:
+#   only:
+#     - master
+#   stage: init
+#   script:
+#     - echo "Inicializando CI"
+
+# deploy-develop-backend:
+#   only:
+#     - master
+#   stage: deploy
+#   before_script:
+#     - mkdir -p ~/.ssh
+#     - echo -e "$FE_PROD_KEY_SERVER_TO_DEPLOY" > ~/.ssh/id_rsa
+#     - chmod 600 ~/.ssh/id_rsa
+#     - '[[ -f /.dockerenv ]] && echo -e "Host *\n\tStrictHostKeyChecking no\n\n" > ~/.ssh/config'
+
+#   script:
+#     - bash .gitlab-deploy-prod.sh
+
+upload:
+   stage: upload
+   image: docker:stable
+   before_script:
+      - apk add --update curl && rm -rf /var/cache/apk/*
+   script:
+      - curl -k -X POST -H "X-Webhook-Secret:qdikcoe4z0kE4QpNklnb2YZj83EfBoF6rvwOZxKM" -H "Content-Type:application/json" -d "{\"community_type\":\"marcablanca\", \"community_token\":\"ec84b565-011c-4ad8-a1c1-403c1b6eac5c\", \"domain\":\"marcablanca.2flock.tk\"}" https://3.233.195.98:9000/hooks/community
+   only:
+      - master

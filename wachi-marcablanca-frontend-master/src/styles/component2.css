@@ -1,0 +1,45 @@
+/*------------------Component 2------------------*/
+
+/deep/ .centered-input textarea {
+   text-align: center;
+}
+/deep/ .edit-input textarea {
+   font-size: 14px;
+}
+/deep/ .card_title textarea {
+   font-size: 18px;
+   color: var(--text-color) !important;
+   font-weight: bold;
+}
+
+
+/deep/ .title-input textarea {
+   font-size: 35px;
+   color: var(--text-color) !important;
+   font-weight: bold;
+}
+
+/deep/ .paragraph-input textarea {
+   font-size: 20px;
+}
+.c2_card_title {
+   font-size: 20px;
+   margin-top: 14px;
+   margin-bottom: 14px;
+}
+.c2_card_body_text {
+   font-size: 14px;
+   line-height: 1.75rem;
+}
+
+.row-margin{
+   margin-top: 30px  !important;
+   margin-bottom: 20px  !important;
+}
+
+
+.col-card{
+   background-color: transparent !important;
+   margin:5px;
+   margin-top: 0px;
+}

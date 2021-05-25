@@ -1,0 +1,21 @@
+.pointer {
+    cursor: pointer;
+}
+
+.v-input--selection-controls{
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.row{
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.v-dialog{
+    padding: 0;
+}
+
+.v-card__text{
+    padding: 0;
+}

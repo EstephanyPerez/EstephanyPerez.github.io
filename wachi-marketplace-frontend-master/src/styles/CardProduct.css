@@ -1,0 +1,16 @@
+.card-align {
+    margin-left: 40%;
+ }
+
+ .publication-title{
+   font-size: 1.2em;
+   font-weight: normal;
+   color: hsl(0, 0%, 0%);
+   overflow:hidden;
+   height: 45px;
+}
+
+ .text-align {
+    margin-left: 10%;
+    color:grey;
+ }

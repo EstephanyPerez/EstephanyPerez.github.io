@@ -1,0 +1,33 @@
+.text-color-orange {
+    color: #f37525;
+ }
+ 
+ .custom-placeholer-color input,
+ .custom-label-color input {
+    color: red !important;
+ }
+.text-title {
+    color: black;
+    text-align: center;
+    padding : 10px;
+}
+.upload-image {
+    width: 200px;
+    height: 200px;
+    padding : 10px;
+    margin: 10px;
+}
+
+.upload-image2 {
+    width: 500px;
+    height: 350px;
+    padding : 10px;
+    margin: 10px;
+}
+
+.centered-component {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    padding: 30px
+}

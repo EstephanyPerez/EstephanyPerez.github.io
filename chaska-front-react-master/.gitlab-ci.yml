@@ -1,0 +1,15 @@
+image: "node:10.16.3"
+
+before_script:
+  - apt-get update -qq 
+
+stages:
+  - deploy
+
+start:
+  stage: deploy
+  tags:
+    - docker
+  script:
+    - npm install
+    - npm start

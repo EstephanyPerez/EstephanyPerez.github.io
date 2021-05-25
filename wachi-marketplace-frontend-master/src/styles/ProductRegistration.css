@@ -1,0 +1,32 @@
+.title{
+    text-align: center;
+}
+
+.price{
+    max-height: 3%;
+}
+
+.custom-form{
+    align-content: center;
+}
+
+.cancel-button{
+    color: #1867C0;
+    border-color: #1867C0;
+    /*border-width: 10px;*/
+}
+
+.continue-button{
+    color: #ffffff;
+}
+
+.button-row{
+    align-content: center;
+    text-align: center;
+}
+
+.flex-center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

@@ -1,0 +1,41 @@
+.label7{
+    margin-left: 1%;
+}
+
+.labelnormal{
+    margin-left: 50%;
+}
+
+input[type="checkbox"] {
+    margin-left: 30%;
+}
+
+input[type="button"] {
+    margin-left: 80%;
+}
+
+.buttonNext3{
+    margin-left: 2%;
+    height: 45px;
+    width: 85%;
+    display: inline-block;
+    background-color: #2F70B8; 
+    border: 2px solid #2F70B8;  
+    color: #FFFFFF;
+    border-radius: 5px;
+    text-align: center;   
+    font-size: 16px; 
+}
+
+.buttonNext3Grey{
+    margin-left: 2%;
+    height: 45px;
+    width: 85%;
+    display: inline-block;
+    background-color: #666; 
+    border: 2px solid #666;  
+    color: #FFFFFF;
+    border-radius: 5px;
+    text-align: center;   
+    font-size: 16px; 
+  }

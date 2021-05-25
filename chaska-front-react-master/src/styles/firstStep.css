@@ -1,0 +1,49 @@
+#formcontrol{
+    margin-left: 10%;
+    text-align: center;
+}
+
+#formcontrol2{
+    
+    margin-left: 15%;
+}
+
+
+#buttonControl{
+    width: 50%;
+}
+
+.buttonPrev{
+    height: 100%;
+    width: 80%;
+    display: inline-block;
+    background-color: #FFFFFF;
+    border: 2px solid #2F70B8; 
+    color: #2F70B8;
+    border-radius: 5px;
+    text-align: center;
+    padding: 2%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    font-size: 16px;
+    margin: auto;
+    font-family: 'Lato';
+    margin:  'auto';
+  }
+
+.buttonNext{
+  height: 100%;
+  width: 80%;
+  display: inline-block;
+  background-color: #2F70B8; 
+  border: 2px solid #2F70B8;  
+  color: #FFFFFF;
+  border-radius: 5px;
+  text-align: center;
+  padding: 2%;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  font-size: 16px;
+  margin: auto;
+  font-family: 'Lato';
+}

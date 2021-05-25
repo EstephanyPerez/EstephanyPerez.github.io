@@ -1,0 +1,10 @@
+.subtitles {
+    color: #2F70B8;
+    display: flex;
+    font-family: "Segoe UI", "Ubuntu", "Roboto", "Open Sans", "Helvetica Neue", sans-serif;
+    font-size: 35px;  
+    font-weight: bold;
+    text-align: center;
+    margin-top: 5%;
+    margin-left: 8%;    
+}

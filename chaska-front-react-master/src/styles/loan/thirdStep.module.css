@@ -1,0 +1,92 @@
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    
+}
+.h1Style1{
+    font-size:20px;
+    font-weight: bold;
+}
+.h1StyleModal{
+    color: black;
+    font-size: 20px px;
+    align-content: center;
+    text-align: center;
+}
+.textStyle{
+    padding-left: 30px;
+    font-size: 20px;
+}
+.textStyleData{
+    padding-left: 520px;
+    font-size: 20px;
+}
+.textStyleData2{
+    padding-left: 410px;
+    font-size: 20px;
+}
+
+.textStyleFee{
+    font-size: 25px;
+    margin-left: 50px;
+      
+
+}
+.centerB{
+    display: flex;
+    justify-content: center;
+}
+
+
+.labelStyle{    
+    font-size: 20px;
+    
+}
+
+.labelStyleRange{
+    margin-left: 0px;
+    font-size: 20px;
+    
+}
+
+.tbStyle{
+    border: 2px solid #2F70B8;    
+    background-color: #d3e2f4;
+    padding: 5px;
+    margin: 2px;
+    align-self: center;
+    text-align: center;
+    
+}
+
+.tbStyleBody{
+    border: 2px solid #2F70B8;    
+    background-color: white;
+    padding: 5px;
+    margin: 2px;
+    align-self: center;
+    text-align: center;
+    min-width: 15vh;
+    
+}
+
+.buttonGray{
+    background-color: #666;
+    color: #fefefe;
+}
+
+.buttonBlue{
+    background-color: #2F70B8;
+    color: #fefefe;
+}
+
+.buttonWhite{
+    margin-left: 50px;
+}
+
+@media screen and (max-width: 800px) {
+    .buttonWhite{
+        margin-left: 20vh;
+    }
+}
